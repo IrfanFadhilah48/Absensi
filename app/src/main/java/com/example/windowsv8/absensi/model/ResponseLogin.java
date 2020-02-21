@@ -26,6 +26,9 @@ public class ResponseLogin {
     @SerializedName("imei")
     @Expose
     private String imei;
+    @SerializedName("kondisi")
+    @Expose
+    private String kondisi;
 
     public Integer getSuccess() {
         return success;
@@ -82,4 +85,14 @@ public class ResponseLogin {
     public void setImei(String imei) {
         this.imei = imei;
     }
+
+    public String getKondisi() {
+        return kondisi;
+    }
+
+    public void setKondisi(String kondisi) {
+        this.kondisi = kondisi;
+    }
+
+
 }

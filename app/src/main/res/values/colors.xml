@@ -13,4 +13,5 @@
     <color name="oren">#ff8502</color>
     <color name="pink">#ff02d5</color>
     <color name="abu">#b4b4b4</color>
+    <color name="trasnparent">#ABFFFFFF</color>
 </resources>

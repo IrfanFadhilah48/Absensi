@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Absensi</string>
+    <string name="masukkan_bulan">Masukkan Bulan</string>
+    <string name="fingerprint_description">Autentikasi Sidik Jari</string>
+    <string name="fingerprint_hint">Sensor Sidik Jari</string>
+    <string name="description_fingerprint_icon">Fingerprint Icon</string>
+    <string name="fingerprint_not_recognized">Autentikasi Sidik Jari tidak sama. Silahkan Ulangi Kembali</string>
+    <string name="fingerprint_success">Autentikasi Sidik Jari Berhasil</string>
+    <string name="cancel_button">Cancel</string>
 </resources>

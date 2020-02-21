@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ListAbsensiActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayoutAbsensi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <TextView
+                    android:layout_width="43dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="3dp"
+                    android:text="No."
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="3dp"
+                    android:text="ID Karyawan"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="3dp"
+                    android:text="Nama"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape"
+                    android:paddingLeft="3dp"
+                    android:text="Ket."
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutAbsensiContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableLayoutAbsensi"
+            android:layout_marginTop="-6dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+        </TableLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarListAbsensi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+</ScrollView>
